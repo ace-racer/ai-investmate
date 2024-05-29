@@ -75,7 +75,7 @@ python3 -m modal setup
 - `ai-investmate-openai` with the key: `OPENAI_API_KEY` with your OpenAI API key
 
 ### Running the application
-1. Rename the `.env_template` file to `.env` and add the values for the secrets there without spaces or quotes 
+1. Rename the `.env_template` file to `.env` and add the values for the secrets there without spaces 
 2. `chmod +x run.sh` and `./run.sh` to start the backend and the frontend
 3. The app should be available at `http://localhost:8511` using the default settings
 
