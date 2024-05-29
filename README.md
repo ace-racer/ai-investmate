@@ -5,6 +5,9 @@ AIInvestMate is an AI tool designed to assist you in navigating the complex worl
 
 Please note that while AI InvestMate offers valuable insights and assistance in understanding various financial products, it is not intended to be a substitute for professional financial advice.
 
+## Overview and demo
+[Youtube](https://youtu.be/wydtvoMvCVM)
+
 ## Architecture
 ![Architecture](docs/architecture.png)
 
