@@ -2,9 +2,26 @@ import streamlit as st
 from utils import get_chat_response, upload_file, format_dict_as_markdown, fetch_graph_data, draw_graph_plotly
 import time
 from models import ChatSession, ChatMessage
+from pathlib import Path
+import os
+
+# Function to toggle the image visibility
+def toggle_image():
+    st.session_state.show_info = not st.session_state.show_info
 
 st.set_page_config(page_title="AIInvestmate")
 st.title(f"AIInvestmate")
+
+# Initialize the session state if it does not exist
+if 'show_info' not in st.session_state:
+    st.session_state.show_info = False
+
+if st.button('ℹ️ Know more...', on_click=toggle_image):
+    pass
+
+# Conditionally display the image based on session state
+if st.session_state.show_info:
+    st.image(os.path.join(Path(__file__).parents[0], "info.png"), caption='AI Investmate')
 
 # Sidebar for inputs
 with st.sidebar:
