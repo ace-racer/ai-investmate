@@ -80,6 +80,6 @@ python3 -m modal setup
 3. The app should be available at `http://localhost:8511` using the default settings
 
 ### Submit batch job to generate knowledge graph using Modal using all available conversation data
-1. `./app/ai-investmate-worker/.venv/bin/modal run src/ai_investmate_worker/main.py`
-2. Deploy as CRON job to run once daily: `./app/ai-investmate-worker/.venv/bin/modal deploy --name aiinvestmate-chat-session-insights src/ai_investmate_worker/main.py`
+1. `./app/ai-investmate-worker/.venv/bin/modal run ./app/ai-investmate-worker/src/ai_investmate_worker/main.py`
+2. Deploy as CRON job to run once daily: `./app/ai-investmate-worker/.venv/bin/modal deploy --name aiinvestmate-chat-session-insights ./app/ai-investmate-worker/src/ai_investmate_worker/main.py`
 *NOTE:* Since this uses OpenAI models to generate the knowledge graph, you will incur some charges whenever the job runs
