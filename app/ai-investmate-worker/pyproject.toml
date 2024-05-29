@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ai-investmate-worker"
+version = "0.1.0"
+description = ""
+authors = ["Anurag Chatterjee <anuragchatterjee92@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ai_investmate_worker", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+modal = "^0.62.160"
+transformers = "*"
+torch = "*"
+nltk = "*"
+sentence-transformers = "*"
+faunadb = "*"
+spacy = "3.7.4"
+matplotlib = "3.9.0"
+ipykernel = "*"
+tiktoken = "*"
+spacy-llm = "0.7.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

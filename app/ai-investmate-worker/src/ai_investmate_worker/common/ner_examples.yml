@@ -1,0 +1,147 @@
+[
+  {
+    "text": "DBS Bank has DBS Digiportfolio which invests in India and Singapore",
+    "spans": [
+      {
+        "text": "DBS Bank",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "a financial services company"
+      },
+      {
+        "text": "DBS Digiportfolio",
+        "is_entity": true,
+        "label": "FUND",
+        "reason": "a fund under DBS Bank"
+      },
+      {
+        "text": "India",
+        "is_entity": true,
+        "label": "COUNTRY",
+        "reason": "a country being invested in"
+      },
+      {
+        "text": "Singapore",
+        "is_entity": true,
+        "label": "COUNTRY",
+        "reason": "a country being invested in"
+      }
+    ]
+  },
+  {
+    "text": "Tesla Inc. is led by Elon Musk and is one of the most innovative companies in the technology sector.",
+    "spans": [
+      {
+        "text": "Tesla Inc.",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "an electric vehicle and clean energy company"
+      },
+      {
+        "text": "Elon Musk",
+        "is_entity": true,
+        "label": "EXECUTIVE",
+        "reason": "the CEO of Tesla Inc."
+      },
+      {
+        "text": "technology",
+        "is_entity": true,
+        "label": "SECTOR",
+        "reason": "the industry sector"
+      }
+    ]
+  },
+  {
+    "text": "Berkshire Hathaway, led by Warren Buffett, has significant holdings in Wells Fargo and Coca-Cola.",
+    "spans": [
+      {
+        "text": "Berkshire Hathaway",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "a multinational conglomerate holding company"
+      },
+      {
+        "text": "Warren Buffett",
+        "is_entity": true,
+        "label": "EXECUTIVE",
+        "reason": "the chairman and CEO of Berkshire Hathaway"
+      },
+      {
+        "text": "Wells Fargo",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "a financial services company"
+      },
+      {
+        "text": "Coca-Cola",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "a multinational beverage corporation"
+      },
+      {
+        "text": "Berkshire Hathaway",
+        "is_entity": true,
+        "label": "INVESTOR",
+        "reason": "a company investing in Wells Fargo and Coca-Cola"
+      }
+    ]
+  },
+  {
+    "text": "The S&P 500 is a prominent index on the New York Stock Exchange, with major companies like Apple Inc. and Microsoft.",
+    "spans": [
+      {
+        "text": "S&P 500",
+        "is_entity": true,
+        "label": "STOCK",
+        "reason": "a stock market index"
+      },
+      {
+        "text": "New York Stock Exchange",
+        "is_entity": true,
+        "label": "STOCK_EXCHANGE",
+        "reason": "a stock exchange market"
+      },
+      {
+        "text": "Apple Inc.",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "a multinational technology company"
+      },
+      {
+        "text": "Microsoft",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "a multinational technology company"
+      }
+    ]
+  },
+  {
+    "text": "BlackRock, a major investor, launched a new Environmental, Social, and Governance (ESG) fund focused on renewable energy.",
+    "spans": [
+      {
+        "text": "BlackRock",
+        "is_entity": true,
+        "label": "COMPANY",
+        "reason": "a global investment management corporation"
+      },
+      {
+        "text": "BlackRock",
+        "is_entity": true,
+        "label": "INVESTOR",
+        "reason": "a company acting as an investor"
+      },
+      {
+        "text": "Environmental, Social, and Governance (ESG) fund",
+        "is_entity": true,
+        "label": "FUND",
+        "reason": "a type of investment fund"
+      },
+      {
+        "text": "renewable energy",
+        "is_entity": true,
+        "label": "SECTOR",
+        "reason": "the target sector for the ESG fund"
+      }
+    ]
+  }
+]
