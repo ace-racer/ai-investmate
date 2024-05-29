@@ -66,9 +66,10 @@ CreateIndex({
 pip install modal
 python3 -m modal setup
 ```
-<em>The first command will install the Modal client library on your computer, along with its dependencies.
+- The first command will install the Modal client library on your computer, along with its dependencies.
 
-The second command creates an API token by authenticating through your web browser. It will open a new tab, but you can close it when you are done.</em>
+- The second command creates an API token by authenticating through your web browser. It will open a new tab, but you can close it when you are done.
+
 9. Create 2 secrets in Modal by following details [here](https://modal.com/docs/guide/secrets): 
 - `ai-investmate-faunadb` with the key: `FAUNA_DB_API_KEY` with your Fauna DB key
 - `ai-investmate-openai` with the key: `OPENAI_API_KEY` with your OpenAI API key
